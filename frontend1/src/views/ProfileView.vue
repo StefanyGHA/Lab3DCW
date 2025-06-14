@@ -281,7 +281,7 @@ const handleLogout = () => {
             <h3 class="text-lg font-medium text-gray-900 mb-4">Recomendados para ti</h3>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               <!-- Productos recomendados podrían cargarse aquí -->
-              <div class="bg-gray-100 rounded-lg aspect-square animate-pulse"></div>
+              <div class="bg-gray-100 rounded-lg aspect-square animate-pulse" ></div>
               <div class="bg-gray-100 rounded-lg aspect-square animate-pulse"></div>
               <div class="bg-gray-100 rounded-lg aspect-square animate-pulse"></div>
               <div class="bg-gray-100 rounded-lg aspect-square animate-pulse"></div>

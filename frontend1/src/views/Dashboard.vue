@@ -331,9 +331,9 @@ const addToCart = async (productoId) => {
       <div class="border-t border-gray-200 pt-6 flex flex-col md:flex-row justify-between items-center">
         <p class="text-xs text-gray-500 mb-4 md:mb-0">&copy; 2025 Camille. Todos los derechos reservados.</p>
         <div class="flex space-x-4">
-          <img src="https://via.placeholder.com/40x25?text=VISA" alt="Visa" class="h-6">
-          <img src="https://via.placeholder.com/40x25?text=MC" alt="Mastercard" class="h-6">
-          <img src="https://via.placeholder.com/40x25?text=PP" alt="PayPal" class="h-6">
+          <img src="https://th.bing.com/th/id/R.c7b8552689fc9bf2cf541d80c817d8c2?rik=6%2fQpNehhAsOOZg&pid=ImgRaw&r=0" alt="Visa" class="h-6">
+          <img src="https://th.bing.com/th/id/OIP.2GBsE98iH4hZsEB-8DZqNQHaHa?r=0&rs=1&pid=ImgDetMain" alt="Mastercard" class="h-6">
+          <img src="https://th.bing.com/th/id/R.bd1419f2f730ef7ba64126743e0e391e?rik=9ZRBG8q8wWAKmA&pid=ImgRaw&r=0" alt="PayPal" class="h-6">
         </div>
       </div>
     </div>
