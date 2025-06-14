@@ -174,7 +174,7 @@ export const useAuthStore = defineStore('auth', () => {
             isLoading.value = true
             error.value = null
             
-            const response = await fetch('http://localhost:3000/register', {
+            const response = await fetch('https://camille-qhs6.onrender.com/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
