@@ -192,9 +192,9 @@ const proceedToCheckout = () => {
                       <div class="flex-shrink-0">
                         <router-link :to="`/producto/${item.producto._id}`">
                           <img 
-                            :src="item.producto.imagen || 'https://via.placeholder.com/150'" 
+                            :src="item.producto.imagen2 || 'https://via.placeholder.com/150'" 
                             :alt="item.producto.nombre" 
-                            class="w-20 h-20 rounded-md object-cover border border-gray-200"
+                            class="product-image w-20 h-20 rounded-md object-cover border border-gray-200"
                           >
                         </router-link>
                       </div>

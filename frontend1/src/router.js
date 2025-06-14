@@ -19,6 +19,7 @@ const routes = [
         component: () => import('@/views/RegisterForm.vue'),
         meta: { public: true }
     },
+
     {
         path: '/pago/tarjeta',
         name: 'pago',

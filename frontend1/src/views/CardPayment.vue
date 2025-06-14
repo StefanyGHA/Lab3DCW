@@ -9,7 +9,7 @@
       <h2>Resumen de tu compra</h2>
       <div class="cart-summary">
         <div v-for="item in orderData?.items || []" :key="item.producto._id" class="cart-item">
-          <img :src="item.producto.imagen" :alt="item.producto.nombre" class="product-image">
+          <img :src="item.producto.imagen2" :alt="item.producto.nombre" class="product-image">
           <div class="product-info">
             <h3>{{ item.producto.nombre }}</h3>
             <p>{{ item.cantidad }} x ${{ item.producto.precio.toFixed(2) }}</p>
