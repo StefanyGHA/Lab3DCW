@@ -45,7 +45,7 @@ export const useAuthStore = defineStore('auth', () => {
             isLoading.value = true
             error.value = null
             
-            const response = await fetch('http://localhost:3000/login', {
+            const response = await fetch('https://camille-qhs6.onrender.com/login',  {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })
@@ -84,7 +84,7 @@ export const useAuthStore = defineStore('auth', () => {
                 throw new Error('Token expirado')
             }
 
-            const response = await fetch('http://localhost:3000/perfil', {
+            const response = await fetch('https://camille-qhs6.onrender.com/perfil', {
                 headers: {
                     'Authorization': `Bearer ${token.value}`
                 }

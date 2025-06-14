@@ -10,7 +10,7 @@ const app = express()
 
 // Configuración CORS
 const corsOptions = {
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://camilleweb.netlify.app/'], // Permite ambas peticiones
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://camilleweb.netlify.app/'], // Permite ambas peticiones 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
