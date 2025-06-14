@@ -54,6 +54,7 @@ const routes = [
         meta: { requiresAuth: true }
     },
     {
+        
         path: '/carrito',
         name: 'Cart',
         component: () => import('@/views/CartView.vue'),
